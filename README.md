@@ -9,7 +9,8 @@ Tratam-se de comandos para subir Docker do Jupyter Lab e do Jupyter Notebook
 ## Comandos para subir o ambiente
 
 ### Jupiter Lab
-docker-compose -f lab-docker-compose.yml up
+
+![image](https://user-images.githubusercontent.com/29760189/152462033-14ecfa5f-eb87-4e37-80f1-8421611d4a18.png)
 
 ### Subir Jupiter Notebook
 

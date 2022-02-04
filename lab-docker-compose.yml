@@ -1,0 +1,9 @@
+version: '2.1'
+services:
+    jupyter:
+        image: jupyterlab
+        volumes:
+            - ../:/notebooks
+        ports:
+            - "8888:8888"
+        command: jupyter lab --port=8888 --no-browser --ip=0.0.0.0 --allow-root

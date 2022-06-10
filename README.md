@@ -21,28 +21,49 @@ Caso você ainda não tenha, veja como instalar na documentação do docker.
 >> * Utilize o Terminal caso a instalação seja no Linux.
 
 ### Passo 1
-Baixar os arquivos do Github num diretório da máquina...
-   Eu criei ./desenv/docker-jupyter-extensible-master
-   
 
+Criar diretório de trabalho. Será a partir  Baixar os arquivos do Github num diretório da máquina...
+   Eu criei ./desenv/docker-jupyter-extensible-master
 
 
 ### Passo 2
 
+Baixe o ZIP destacado na imagem abaixo.
+
+![image](https://user-images.githubusercontent.com/29760189/173156732-a2ab31f5-3c82-4454-b907-09b57322f00a.png)
+
+O arquivo ZIP deve ser descompactado no diretório de trabalho.
+
+### Passo 3
+
+![image](https://user-images.githubusercontent.com/29760189/173157135-cf92b505-d48c-4b1f-bdab-984a392ff35f.png)
+
+No diretório de trabalho, onde está o arquivo Dockerfile (imagem acima), execute o comando:
+
+> docker build .
+
+Esse comando vai instalar um conjunto de pacotes que estão no arquivo Dockerfile e no requirements.txt
+
+Após esse comando, tudo deve estar instalado.
+
+### Passo 4
+
+Vamos iniciar o JupyterLab com o comando abaixo...
+
+> docker-compuse up
+
+![image](https://user-images.githubusercontent.com/29760189/173157784-d5d63bd2-403c-4115-8cf9-f33e8bddcbf0.png)
+
+Abra o navegador de preferência e cole uma das URLs mostradas ao final. Exemplo na imagem acima.
+
+### Passo 5
+
+Agora é só usar o Jupyter Lab !!!
+
+![image](https://user-images.githubusercontent.com/29760189/173157999-a6500058-07d4-46bb-9c16-d396a964b250.png)
 
 
+### Passo 6 
 
-### Jupiter Notebook
-
-### Jupiter Lab
-
-## Comandos para subir o ambiente
-
-### Jupiter Lab
-
-![image](https://user-images.githubusercontent.com/29760189/152462033-14ecfa5f-eb87-4e37-80f1-8421611d4a18.png)
-
-### Subir Jupiter Notebook
-
-
-
+Para interromper o Jupyter Lab, vá ao terminal e tecle <Ctrl> + <C>
+   

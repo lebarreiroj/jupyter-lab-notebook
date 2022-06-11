@@ -65,5 +65,5 @@ Agora é só usar o Jupyter Lab !!!
 
 ### Passo 6 
 
-Para interromper o Jupyter Lab, vá ao terminal e tecle <Ctrl> + <C>
+Para interromper o Jupyter Lab, vá ao terminal e tecle Ctrl + C
    
